@@ -5,13 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --left: 2rem;
 }
 
 body {
@@ -19,3 +14,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* .slider
+
+.slider::before {
+  content: "";
+
+  position: absolute;
+  top: 2rem;
+  left: var(--left);
+  width: 2rem;
+  height: 2rem;
+  background-color: blue;
+} */
